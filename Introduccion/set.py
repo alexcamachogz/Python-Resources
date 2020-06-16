@@ -16,7 +16,6 @@ print(planetas)
 # Eliminar elementos
 planetas.remove("Tierra")
 print(planetas)
-re
 # Eliminar con discard, no arroja excepción si no encuentra el elemento a eliminar
 planetas.discard("Júpiter")
 print(planetas)
