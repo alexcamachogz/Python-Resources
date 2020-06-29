@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editar Persona</title>
+</head>
+<body>
+    <form method="POST">
+        <h1>Editar Persona</h1>
+        <table>
+            {{formaPersona}}
+        </table>
+        <button type="submit">Enviar</button>
+        {% csrf_token %}
+
+    </form>
+</body>
+</html>

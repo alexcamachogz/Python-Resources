@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalle Persona</title>
+</head>
+<body>
+    <h1>Detalle Persona</h1>
+    <div>ID Persona: {{ persona.id }}</div>
+    <div>Nombre: {{ persona.nombre }}</div>
+    <div>Apellido: {{ persona.apellido }}</div>
+    <div>Email: {{ persona.email }}</div>
+    <a href="{% url 'index'%}">Regresar</a>
+</body>
+</html>
